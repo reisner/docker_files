@@ -23,9 +23,17 @@ RUN R -e "install.packages(c('data.table', \
   'dplyr', \
   'ggplot2', \
   'ggmap', \
+  'leaflet', \
+  'lubridate', \
+  'MASS', \
   'odbc', \
+  'properties', \
+  'raster', \
+  'rgdal', \
   'shiny', \
-  'shinydashboard'))"
+  'shinydashboard', \
+  'sp'))"
+
 
 # ============ SQL SERVER ============
 
